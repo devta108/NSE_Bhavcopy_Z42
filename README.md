@@ -17,39 +17,30 @@ ORDER BY Gain desc
 limit 25;
 ```
 Result for above query 
-```html
-<!DOCTYPE html>
-<html>
-<head>
-<title></title>
-<meta charset="UTF-8">
-</head>
-<body>
-<table border="1" style="border-collapse:collapse">
-<tr><th>TIMESTAMP</th><th>NAME OF COMPANY</th><th>SYMBOL</th><th>Gain</th><th>SERIES</th></tr>
-<tr><td>13-OCT-2022</td><td>Hindcon Chemicals Limited</td><td>HINDCON</td><td>0.15222375057313167</td><td>EQ</td></tr>
-<tr><td>13-OCT-2022</td><td>Indo Amines Limited</td><td>INDOAMIN</td><td>0.13513513513513514</td><td>EQ</td></tr>
-<tr><td>13-OCT-2022</td><td>Suzlon Energy Ltd-RE</td><td>SUZLON-RE</td><td>0.1250000000000001</td><td>BE</td></tr>
-<tr><td>13-OCT-2022</td><td>DSJ Keep Learning Limited</td><td>KEEPLEARN</td><td>0.10416666666666667</td><td>BE</td></tr>
-<tr><td>13-OCT-2022</td><td>Liberty Shoes Limited</td><td>LIBERTSHOE</td><td>0.1041639641976911</td><td>EQ</td></tr>
-<tr><td>13-OCT-2022</td><td>Pennar Industries Limited</td><td>PENIND</td><td>0.10359869138495092</td><td>EQ</td></tr>
-<tr><td>13-OCT-2022</td><td>Aditya Birla Money Limited</td><td>BIRLAMONEY</td><td>0.10042553191489371</td><td>EQ</td></tr>
-<tr><td>13-OCT-2022</td><td>Dredging Corporation of India Limited</td><td>DREDGECORP</td><td>0.09993763642033057</td><td>EQ</td></tr>
-<tr><td>13-OCT-2022</td><td>RITES Limited</td><td>RITES</td><td>0.09959525874530224</td><td>EQ</td></tr>
-<tr><td>13-OCT-2022</td><td>Rajdarshan Industries Limited</td><td>ARENTERP</td><td>0.093603744149766</td><td>EQ</td></tr>
-<tr><td>13-OCT-2022</td><td>Kritika Wires Limited</td><td>KRITIKA</td><td>0.08937198067632858</td><td>EQ</td></tr>
-<tr><td>13-OCT-2022</td><td>Next Mediaworks Limited</td><td>NEXTMEDIA</td><td>0.0882352941176471</td><td>EQ</td></tr>
-<tr><td>13-OCT-2022</td><td>Apollo Sindoori Hotels Limited</td><td>APOLSINHOT</td><td>0.0876251666040122</td><td>EQ</td></tr>
-<tr><td>13-OCT-2022</td><td>PVP Ventures Limited</td><td>PVP</td><td>0.08641975308641989</td><td>EQ</td></tr>
-<tr><td>13-OCT-2022</td><td>Rama Steel Tubes Limited</td><td>RAMASTEEL</td><td>0.08457943925233642</td><td>EQ</td></tr>
-<tr><td>13-OCT-2022</td><td>Vertoz Advertising Limited</td><td>VERTOZ</td><td>0.08041060735671507</td><td>EQ</td></tr>
-<tr><td>13-OCT-2022</td><td>Ortel Communications Limited</td><td>ORTEL</td><td>0.08000000000000007</td><td>BZ</td></tr>
-<tr><td>13-OCT-2022</td><td>Bedmutha Industries Limited</td><td>BEDMUTHA</td><td>0.07994186046511628</td><td>EQ</td></tr>
-<tr><td>13-OCT-2022</td><td>Hotel Rugby Limited</td><td>HOTELRUGBY</td><td>0.075268817204301</td><td>BE</td></tr>
-</table>
-</body>
-</html>
-
+```
++-----------+-------------------------------------+----------+-------------------+------+
+|TIMESTAMP  |NAME OF COMPANY                      |SYMBOL    |Gain               |SERIES|
++-----------+-------------------------------------+----------+-------------------+------+
+|13-OCT-2022|Hindcon Chemicals Limited            |HINDCON   |0.15222375057313167|EQ    |
+|13-OCT-2022|Indo Amines Limited                  |INDOAMIN  |0.13513513513513514|EQ    |
+|13-OCT-2022|Suzlon Energy Ltd-RE                 |SUZLON-RE |0.1250000000000001 |BE    |
+|13-OCT-2022|DSJ Keep Learning Limited            |KEEPLEARN |0.10416666666666667|BE    |
+|13-OCT-2022|Liberty Shoes Limited                |LIBERTSHOE|0.1041639641976911 |EQ    |
+|13-OCT-2022|Pennar Industries Limited            |PENIND    |0.10359869138495092|EQ    |
+|13-OCT-2022|Aditya Birla Money Limited           |BIRLAMONEY|0.10042553191489371|EQ    |
+|13-OCT-2022|Dredging Corporation of India Limited|DREDGECORP|0.09993763642033057|EQ    |
+|13-OCT-2022|RITES Limited                        |RITES     |0.09959525874530224|EQ    |
+|13-OCT-2022|Rajdarshan Industries Limited        |ARENTERP  |0.093603744149766  |EQ    |
+|13-OCT-2022|Kritika Wires Limited                |KRITIKA   |0.08937198067632858|EQ    |
+|13-OCT-2022|Next Mediaworks Limited              |NEXTMEDIA |0.0882352941176471 |EQ    |
+|13-OCT-2022|Apollo Sindoori Hotels Limited       |APOLSINHOT|0.0876251666040122 |EQ    |
+|13-OCT-2022|PVP Ventures Limited                 |PVP       |0.08641975308641989|EQ    |
+|13-OCT-2022|Rama Steel Tubes Limited             |RAMASTEEL |0.08457943925233642|EQ    |
+|13-OCT-2022|Vertoz Advertising Limited           |VERTOZ    |0.08041060735671507|EQ    |
+|13-OCT-2022|Ortel Communications Limited         |ORTEL     |0.08000000000000007|BZ    |
+|13-OCT-2022|Bedmutha Industries Limited          |BEDMUTHA  |0.07994186046511628|EQ    |
+|13-OCT-2022|Hotel Rugby Limited                  |HOTELRUGBY|0.075268817204301  |BE    |
++-----------+-------------------------------------+----------+-------------------+------+
 ```
 2. Query for top25 gainers for each day in last 30 working days
 ```sqlite
@@ -66,41 +57,36 @@ from top25 join "Equity Segment Securities" as t2 on t2."ISIN NUMBER" = top25.IS
 where rn <=25;
 ```
 Result for above CTE
-```html
-<!DOCTYPE html>
-<html>
-<head>
-<title></title>
-<meta charset="UTF-8">
-</head>
-<body>
-<table border="1" style="border-collapse:collapse">
-<tr><th>TIMESTAMP</th><th>NAME OF COMPANY</th><th>SYMBOL</th><th>Gain</th><th>SERIES</th></tr>
-<tr><td>01-SEP-2022</td><td>Rossell India Limited</td><td>ROSSELLIND</td><td>0.15507559395248371</td><td>EQ</td></tr>
-<tr><td>01-SEP-2022</td><td>Stel Holdings Limited</td><td>STEL</td><td>0.1476209841398942</td><td>EQ</td></tr>
-<tr><td>01-SEP-2022</td><td>Pritika Auto Industries Limited</td><td>PRITIKAUTO</td><td>0.14714714714714733</td><td>EQ</td></tr>
-<tr><td>01-SEP-2022</td><td>Tata Teleservices (Maharashtra) Limited</td><td>TTML</td><td>0.139347923179991</td><td>BE</td></tr>
-<tr><td>01-SEP-2022</td><td>Paramount Communications Limited</td><td>PARACABLES</td><td>0.13624678663239087</td><td>BE</td></tr>
-<tr><td>01-SEP-2022</td><td>Hindware Home Innovation Limited</td><td>HINDWAREAP</td><td>0.12890625</td><td>EQ</td></tr>
-<tr><td>01-SEP-2022</td><td>IFCI Limited</td><td>IFCI</td><td>0.1284403669724771</td><td>EQ</td></tr>
-<tr><td>01-SEP-2022</td><td>RKEC Projects Limited</td><td>RKEC</td><td>0.1268403171007928</td><td>EQ</td></tr>
-<tr><td>01-SEP-2022</td><td>Compucom Software Limited</td><td>COMPUSOFT</td><td>0.12582781456953648</td><td>EQ</td></tr>
-<tr><td>01-SEP-2022</td><td>Fineotex Chemical Limited</td><td>FCL</td><td>0.12258530420653543</td><td>EQ</td></tr>
-<tr><td>01-SEP-2022</td><td>Bharat Gears Limited</td><td>BHARATGEAR</td><td>0.12122905027932955</td><td>EQ</td></tr>
-<tr><td>01-SEP-2022</td><td>Manaksia Coated Metals &amp; Industries Limited</td><td>MANAKCOAT</td><td>0.11528150134048269</td><td>EQ</td></tr>
-<tr><td>01-SEP-2022</td><td>Ashima Limited</td><td>ASHIMASYN</td><td>0.11272727272727277</td><td>EQ</td></tr>
-<tr><td>01-SEP-2022</td><td>Best Agrolife Limited</td><td>BESTAGRO</td><td>0.11229787234042557</td><td>EQ</td></tr>
-<tr><td>02-SEP-2022</td><td>Automotive Stampings and Assemblies Limited</td><td>ASAL</td><td>0.1746478873239436</td><td>EQ</td></tr>
-<tr><td>02-SEP-2022</td><td>Shiva Mills Limited</td><td>SHIVAMILLS</td><td>0.1725197541703249</td><td>EQ</td></tr>
-<tr><td>02-SEP-2022</td><td>EIH Limited</td><td>EIHOTEL</td><td>0.1717581047381545</td><td>EQ</td></tr>
-<tr><td>02-SEP-2022</td><td>Surana Solar Limited</td><td>SURANASOL</td><td>0.1656050955414012</td><td>EQ</td></tr>
-<tr><td>02-SEP-2022</td><td>AksharChem India Limited</td><td>AKSHARCHEM</td><td>0.16362492133417242</td><td>EQ</td></tr>
-<tr><td>02-SEP-2022</td><td>Royal Orchid Hotels Limited</td><td>ROHLTD</td><td>0.1536782361929709</td><td>EQ</td></tr>
-<tr><td>02-SEP-2022</td><td>Country Club Hospitality &amp; Holidays Limited</td><td>CCHHL</td><td>0.13636363636363633</td><td>BE</td></tr>
-<tr><td>02-SEP-2022</td><td>MIRC Electronics Limited</td><td>MIRCELECTR</td><td>0.11141304347826092</td><td>EQ</td></tr>
-<tr><td>02-SEP-2022</td><td>TCNS Clothing Co. Limited</td><td>TCNSBRANDS</td><td>0.10589510547819561</td><td>EQ</td></tr>
-</table>
-</body>
-</html>
-
 ```
++-----------+-------------------------------------------+----------+-------------------+------+
+|TIMESTAMP  |NAME OF COMPANY                            |SYMBOL    |Gain               |SERIES|
++-----------+-------------------------------------------+----------+-------------------+------+
+|01-SEP-2022|Pritika Auto Industries Limited            |PRITIKAUTO|0.14714714714714733|EQ    |
+|01-SEP-2022|Tata Teleservices (Maharashtra) Limited    |TTML      |0.139347923179991  |BE    |
+|01-SEP-2022|Paramount Communications Limited           |PARACABLES|0.13624678663239087|BE    |
+|01-SEP-2022|Hindware Home Innovation Limited           |HINDWAREAP|0.12890625         |EQ    |
+|01-SEP-2022|IFCI Limited                               |IFCI      |0.1284403669724771 |EQ    |
+|01-SEP-2022|RKEC Projects Limited                      |RKEC      |0.1268403171007928 |EQ    |
+|01-SEP-2022|Compucom Software Limited                  |COMPUSOFT |0.12582781456953648|EQ    |
+|01-SEP-2022|Fineotex Chemical Limited                  |FCL       |0.12258530420653543|EQ    |
+|01-SEP-2022|Bharat Gears Limited                       |BHARATGEAR|0.12122905027932955|EQ    |
+|01-SEP-2022|Manaksia Coated Metals & Industries Limited|MANAKCOAT |0.11528150134048269|EQ    |
+|01-SEP-2022|Ashima Limited                             |ASHIMASYN |0.11272727272727277|EQ    |
+|01-SEP-2022|Best Agrolife Limited                      |BESTAGRO  |0.11229787234042557|EQ    |
+|02-SEP-2022|Automotive Stampings and Assemblies Limited|ASAL      |0.1746478873239436 |EQ    |
+|02-SEP-2022|Shiva Mills Limited                        |SHIVAMILLS|0.1725197541703249 |EQ    |
+|02-SEP-2022|EIH Limited                                |EIHOTEL   |0.1717581047381545 |EQ    |
+|02-SEP-2022|Surana Solar Limited                       |SURANASOL |0.1656050955414012 |EQ    |
+|02-SEP-2022|AksharChem India Limited                   |AKSHARCHEM|0.16362492133417242|EQ    |
+|02-SEP-2022|Royal Orchid Hotels Limited                |ROHLTD    |0.1536782361929709 |EQ    |
+|02-SEP-2022|Country Club Hospitality & Holidays Limited|CCHHL     |0.13636363636363633|BE    |
+|02-SEP-2022|MIRC Electronics Limited                   |MIRCELECTR|0.11141304347826092|EQ    |
+|02-SEP-2022|TCNS Clothing Co. Limited                  |TCNSBRANDS|0.10589510547819561|EQ    |
+|02-SEP-2022|Udaipur Cement Works Limited               |UDAICEMENT|0.10016155088852982|EQ    |
+|02-SEP-2022|EIH Associated Hotels Limited              |EIHAHOTELS|0.09796481545360461|EQ    |
+|02-SEP-2022|The Byke Hospitality Ltd                   |BYKE      |0.0950276243093922 |EQ    |
+|02-SEP-2022|GMM Pfaudler Limited                       |GMMPFAUDLR|0.09460431654676256|EQ    |
+|02-SEP-2022|Omax Autos Limited                         |OMAXAUTO  |0.09448082319925158|EQ    |
++-----------+-------------------------------------------+----------+-------------------+------+
+```
+
